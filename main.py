@@ -5,7 +5,7 @@ from Scraping.get_rozklad import get_rozklad_file
 from UI.get_key_by_index import get_nth_key
 from get_numerator_denominator_week.get_numerator_denominator_week import get_current_week_type
 
-bot = telebot.TeleBot("6934376303:AAFUeNF3vtjFxL_bNEp_AVCRuDWWXyUZnYU")
+bot = telebot.TeleBot(token=os.getenv('TELEGRAM_API_TOKEN'))
 
 
 # COMMAND START
